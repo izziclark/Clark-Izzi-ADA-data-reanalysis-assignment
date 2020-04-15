@@ -1,0 +1,70 @@
+---
+title: "Data Analysis Replication Assignment"
+author: "Izzi Clark"
+date: "April 16, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = TRUE,
+	message = TRUE,
+	comment = "##",
+	prompt = FALSE,
+	tidy = TRUE,
+	tidy.opts = list(blank = FALSE, width.cutoff = 75),
+	fig.path = "img/",
+	fig.align = "center"
+)
+```
+
+## Introduction
+
+Foerster et al. developed a likelihood-based Elo rating method to look at rank dynamics (changes in hierarchy membership vs. successful challenges of higher-ranking individuals), and applied this to a dataset on Gombe chimpanzees. They found a substantial sex differences: while females queue for social status, males actively challenge higher-ranking males to raise their own rank over time. They also found that natal females, by not dispersing, get a "head start" in the rank queue.
+
+## Visualization of Data
+
+[Include a view of the first few lines of the data set plus exploratory data analysis - e.g., overview of descriptive statistics included in the paper, plots, etc.
+4 data files:
+female_ago.csv
+female_presence.csv
+male_ago.csv
+male_presence.csv
+Female/male agonistic interactions (female_ago.xls, male_ago.xls)
+Female/male presence grids (female_presence.xls, male_presence.xls)
+Lists each date of study period and presence/absence of each adult female/male. This allows the calculation of relative ranks on each date based on Elo scores.
+
+Optimized elo rating R code
+Commented R code used for modeling Elo scores, corresponding to models 1-3 in manuscript. Includes code for import of sample data files to allow rerunning of models.
+
+```{r}
+
+```
+
+## Replications/Reanalysis
+
+[Be sure to explain what replications you are doing and comment your code so that it is easy for a reader to understand. Include in this section relevant tables/figures/values from the original paper for comparison to what you accomplished with your replication.]
+
+## Summary/Discussion
+
+[How successful were you at replicating the analyses and visualizations in the study? What problems did you encounter? Why might you have encountered those problems? What details were lacking from the original study's methods that might have hampered your ability to replicate the authors' results?]
+
+## References
+
+
+
+
+
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
